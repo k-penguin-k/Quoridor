@@ -111,10 +111,13 @@
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp20</LanguageStandard>
+      <AdditionalIncludeDirectories>C:\raylib\raylib\src</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\raylib\raylib\projects\VS2022\build\raylib\bin\x64\Debug.DLL</AdditionalLibraryDirectories>
+      <AdditionalDependencies>$(CoreLibraryDependencies);%(AdditionalDependencies);raylib.lib;winmm.lib</AdditionalDependencies>
     </Link>
     <Manifest>
       <EnableSegmentHeap>true</EnableSegmentHeap>
@@ -129,10 +132,13 @@
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp20</LanguageStandard>
+      <AdditionalIncludeDirectories>C:\raylib\raylib\src</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\raylib\raylib\projects\VS2022\build\raylib\bin\x64\Debug.DLL</AdditionalLibraryDirectories>
+      <AdditionalDependencies>$(CoreLibraryDependencies);%(AdditionalDependencies);raylib.lib;winmm.lib</AdditionalDependencies>
     </Link>
     <Manifest>
       <EnableSegmentHeap>true</EnableSegmentHeap>
