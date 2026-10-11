@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="Quoridor/Quoridor.vcxproj" Id="dbdd5b99-7935-4a5f-8efb-c33ec5f17744" />
+</Solution>
